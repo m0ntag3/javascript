@@ -1,4 +1,4 @@
-let distance =  7000
+let distance =  7000;
 
 if (distance <= 100){
     console.log("Amount to pay is 5 USD")
@@ -12,6 +12,9 @@ else if (distance > 500 && distance <= 1000){
 else {
     console.log("Amount to Pay is 40 USD")
 }
+
+// SINGLE EQUAL SIGN (assignment operator)
+// Used to indicate/assign text the role of being a variable.
 
 // DOUBLE EQUAL SIGN
 // Checks value only- performs type conversion

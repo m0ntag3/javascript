@@ -23,6 +23,11 @@ console.log(typeof(person))
 // A collection of items that are all indices.
 let fruits = ["Mango", "Banana","Lime","Dragonfruit","Raisin","Peach"," Strawberry"]
 
+// To add an item you use unshift function.
+fruits.unshift("Pineapple")
+
+// To remove an item you use pop function
+fruits.pop()
 console.log("The entire array of fruits is:",fruits)
 
 //  To access the array items we use the index
