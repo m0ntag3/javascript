@@ -14,8 +14,8 @@ while (i <= 10){
     i++   
 }
 console.log("++++++++++++++++++++++++")
-// A JS example of map loop
 
+// A JS example of map loop
 const prices = [10, 21, 36, 41];
 // Use map to create a new 'X2' array
 const twicePrices = prices.map(price => price * 2);
@@ -23,6 +23,8 @@ console.log(twicePrices);
 // Output: [20, 42, 72, 82]
 console.log(prices);        
 // Output: [10, 21, 36, 41] (Original remains unchanged!)
+
+console.log("/////////////////////////////////////")
 
 const users = [
 { id: 1, name: 'Andrew', email: 'andrew@gmail.com' },
