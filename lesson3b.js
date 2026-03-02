@@ -32,6 +32,8 @@ const users = [
 { id: 3, name: 'Charlie', email: 'charlie@gmail.com' }
 ];
 // Extract only the names into a simple string array
+// user that is within the brackets is a parameter/placeholder
 const userNames = users.map(user => user.name);
 console.log(userNames);
+console.log(typeof(userNames))
 // Output: ["Andrew", "Bob", "Charlie"]

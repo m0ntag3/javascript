@@ -31,6 +31,8 @@ else{
     console.log("The Monthly contribution is:", 2000.00)
 }
 
+console.log("=====================================================")
+
 // For loop able to print out all the leap years from 2000 to 2026
 for (let year = 2000; year <= 2026; year++) {
 if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
@@ -77,12 +79,17 @@ console.log("This is the largest number:",max);
 console.log("====================================================")
 
 // Write a for loop to print the multiplication table of 5 from 5 x 1 to 5 x 10.
-let n = 5; // Declare it once here
-
+let n = 5; 
 for (let i = 1; i <= 10; i++) {
   let result = n * i;
 console.log(`${n} x ${i} = ${result}`);
 }
+// ${} (String interpolation)
+// ${n} - Takes the value of variable n(value being multiplied)
+// x - Plain letter "x" used as a multiplication symbol
+// ${i}	- Takes the value of variable i(counter used in looping)
+// ${result} - Takes the final calculated value
+
 console.log("====================================================")
 
 // Write a for loop to print all odd numbers from 1 to 19.
