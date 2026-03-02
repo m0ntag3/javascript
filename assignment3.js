@@ -133,7 +133,7 @@ console.log(multiply(4, 5));
 
 console.log("///////////////////////////////////////")
 
-            // Callback
+            // Callback (delay function)
 setTimeout(function() {
 console.log("This ran after 1 second");
 }, 1000);

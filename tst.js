@@ -19,11 +19,17 @@
 // console.log(greet("Andrew", "morning"));
 // console.log(greet("Tony","evening"))
 
-let x = 5;
-const square = function(n) {
-  return n * n; 
-};
-// Calling the function and storing the result in a variable
-let result = square(x);
-console.log("The square of five is:", result);
+// let x = 5;
+// const square = function(n) {
+//   return n * n; 
+// };
+// // Calling the function and storing the result in a variable
+// let result = square(x);
+// console.log("The square of five is:", result);
+
+            // Callback
+setTimeout(function() {
+console.log("This ran after 1 second");
+}, 1000);
+
 

@@ -35,5 +35,6 @@ const users = [
 // user that is within the brackets is a parameter/placeholder
 const userNames = users.map(user => user.name);
 console.log(userNames);
-console.log(typeof(userNames))
+// type of gives object since when mapping anything an array is returned and its interpreted as an object.
+console.log(typeof(userNames)) 
 // Output: ["Andrew", "Bob", "Charlie"]
