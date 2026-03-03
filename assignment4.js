@@ -1,5 +1,5 @@
 // Modules in Javascript
- // Exist in two formats which were formerly the AMD and UMD:
+ // Exist in two formats which were formerly the AMD(Asynchronous Module Definition) and UMD(Universal Module Definition):
         // 1. ES Modules (ESM)
         // 2. CommonJs(CJS)
 
@@ -19,7 +19,10 @@ console.log(product(5, 9));
 import exp from './test.js';
 exp("Hey");
 
-   // 1. ARROW FUNCTIONS
+
+
+
+// 1. ARROW FUNCTIONS
         // Modern way to write anonymous functions
             // Traditional anonymous function
 let x = 5;
@@ -36,4 +39,4 @@ console.log("///////////////////////////////////////")
             // Arrow Version (Super clean!)
 const squareArrow = n => n * n;
 
-console.log(squareArrow(5)); 
+console.log("The square of five is:",squareArrow(5)); 
